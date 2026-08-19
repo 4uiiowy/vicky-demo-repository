@@ -2,7 +2,7 @@
 
 一个以中文为主的零依赖静态作品集，展示批次复核、证据阅读与结论标注的产品设计。它是内部业务工具的公开、脱敏概念版，只复现产品思路和交互，不包含任何内部系统连接、真实业务数据或公司代码。
 
-[在线作品集](https://4uiiowy.github.io/vicky-demo-repository/) · [交互 Demo](https://4uiiowy.github.io/vicky-demo-repository/demo.html)
+[在线作品集](https://4uiiowy.github.io/vicky-demo-repository/) · [交互 Demo](https://4uiiowy.github.io/vicky-demo-repository/demo.html) · [AI 双项目需求文档](https://4uiiowy.github.io/vicky-demo-repository/requirements.html)
 
 ## 项目背景
 
@@ -24,6 +24,7 @@
 
 - [作品集首页](./index.html)：项目背景、设计原则、核心流程与构建说明
 - [交互演示](./demo.html)：批次切换、证据展开、打标与本地保存
+- [AI 双项目需求文档](./requirements.html)：旅行行程规划助手与秋招求职追踪工具的详细需求和版本规划
 - [隐私说明](./PRIVACY.md)
 - [开源许可](./LICENSE)
 
