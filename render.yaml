@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: offerflow
+    runtime: docker
+    plan: starter
+    region: singapore
+    rootDir: offerflow
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    numInstances: 1
+    envVars:
+      - key: OFFERFLOW_HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 10000
+      - key: CHROME_BIN
+        value: /usr/bin/chromium
+      - key: BROWSER_MAX_CONCURRENCY
+        value: 2
+      - key: RATE_LIMIT_PER_MINUTE
+        value: 30
