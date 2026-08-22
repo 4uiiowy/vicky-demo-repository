@@ -53,9 +53,9 @@ python3 server.py
 3. 等待镜像构建完成，访问 Render 分配的 HTTPS 域名。
 4. 打开 `/healthz`，确认 `ok`、`browser`、`pdf` 都为 `true`。
 
-部署镜像内包含 Chromium、中文字库和 `pdftotext`，因此动态岗位页面、PDF/DOCX 简历解析与前端使用同一个公网域名。`render.yaml` 默认使用常驻的 `starter` 实例，并通过 `/healthz` 执行健康检查。
+部署镜像内包含 Chromium、中文字库和 `pdftotext`，因此动态岗位页面、PDF/DOCX 简历解析与前端使用同一个公网域名。`render.yaml` 默认使用免费的 `free` 实例，并通过 `/healthz` 执行健康检查。
 
-公开接口默认限制每个来源每分钟 30 次请求，浏览器渲染最多并行 2 个任务。可通过 `RATE_LIMIT_PER_MINUTE` 和 `BROWSER_MAX_CONCURRENCY` 调整。
+免费实例适合作品集 Demo，但可能在闲置后休眠，首次访问需要等待冷启动；内存也低于付费实例。为降低浏览器渲染导致的内存峰值，公开接口默认限制每个来源每分钟 15 次请求，浏览器渲染最多并行 1 个任务。可通过 `RATE_LIMIT_PER_MINUTE` 和 `BROWSER_MAX_CONCURRENCY` 调整。
 
 ## 当前数据边界
 

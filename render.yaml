@@ -2,7 +2,7 @@ services:
   - type: web
     name: offerflow
     runtime: docker
-    plan: starter
+    plan: free
     region: singapore
     rootDir: offerflow
     dockerfilePath: ./Dockerfile
@@ -17,6 +17,6 @@ services:
       - key: CHROME_BIN
         value: /usr/bin/chromium
       - key: BROWSER_MAX_CONCURRENCY
-        value: 2
+        value: 1
       - key: RATE_LIMIT_PER_MINUTE
-        value: 30
+        value: 15
