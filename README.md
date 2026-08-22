@@ -16,6 +16,7 @@
 - [作品集导航页](https://4uiiowy.github.io/vicky-demo-repository/)
 - [Case Review Tool](https://4uiiowy.github.io/vicky-demo-repository/case-review-tool/)
 - [Case Review 交互 Demo](https://4uiiowy.github.io/vicky-demo-repository/case-review-tool/demo.html)
+- [OfferFlow 项目介绍](https://4uiiowy.github.io/vicky-demo-repository/offerflow/project.html)
 - [OfferFlow 在线 Demo](https://offerflow-u2hq.onrender.com/)
 
 ## 数据说明

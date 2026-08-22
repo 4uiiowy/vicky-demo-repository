@@ -1,5 +1,7 @@
 # OfferFlow V0.6
 
+[项目介绍页](https://4uiiowy.github.io/vicky-demo-repository/offerflow/project.html) · [在线 Demo](https://offerflow-u2hq.onrender.com/)
+
 ## 启动
 
 双击 `启动 OfferFlow.command`，终端会启动本地服务，浏览器随后打开：
